@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Customer extends User {
-    private Cart cart;
+    private Cart cart; // moi khach hang so huu 1 gio hang
     private ArrayList<Order> orderHistory;
 
     public Customer(String id, String username, String password) {
